@@ -9,7 +9,7 @@ class Apartment extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['aptname','password','enableads','enableservie','group_id'];
+    protected $fillable = ['aptname','password','enableads','enableservie','passcode','group_id'];
 
 
     public function group()
