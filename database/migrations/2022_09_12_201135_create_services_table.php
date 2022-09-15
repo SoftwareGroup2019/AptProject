@@ -20,6 +20,9 @@ return new class extends Migration
             $table->string('username');
             $table->string('email');
             $table->string('password');
+            $table->boolean('status')->default('0');
+            $table->string('from');
+            $table->string('to');
             $table->unsignedBigInteger('group_id')->index();
             $table->foreign('group_id')->references('id')->on('groups')
             ->onUpdate('cascade')

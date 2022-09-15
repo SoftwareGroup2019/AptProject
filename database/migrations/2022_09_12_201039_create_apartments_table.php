@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('password');
             $table->boolean('enableads');
             $table->boolean('enableservice');
+            $table->string('passcode')->default('0000');
             $table->unsignedBigInteger('group_id')->index();
             $table->foreign('group_id')->references('id')->on('groups')
             ->onUpdate('cascade')
