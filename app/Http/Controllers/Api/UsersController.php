@@ -35,16 +35,13 @@ class UsersController extends Controller
 
             $all_user = User::all();
             return UserResource::collection($all_user);
-            
         } catch (\Throwable $th) {
             //throw $th;
             return response()->json([
-                'status'=>false,
-                'message'=>$th->getMessage(),
-            ],500);
+                'status' => false,
+                'message' => $th->getMessage(),
+            ], 500);
         }
-
-       
     }
 
 
@@ -54,9 +51,29 @@ class UsersController extends Controller
      * you can create any users with attaching role and group
      *
      * @apiResource App\Http\Resources\RoleResource
-     * @apiResourceModel App\Models\Role
-     * @apiResource App\Http\Resources\GroupResource
-     * @apiResourceModel App\Models\Group
+     * 
+     * @response 200 {
+     *   "roles": [
+     *      {
+     *      "id": "1",
+     *       "rolename": "SuperAdmin"
+     *      },
+     *     {
+     *    "id": "2",
+     *   "rolename": "Group"
+     *  }
+     *],
+     *"group": [
+     *   {
+     *  "id": "1",
+     * "groupname": "Lalav"
+     *},
+     *{
+     *"id": "2",
+     *"groupname": "Pavilon"
+     *}
+     *]
+     *}
      * 
      */
     public function create()
@@ -91,12 +108,11 @@ class UsersController extends Controller
             $user = User::create($validated_user);
 
             return new UserResource($user);
-            
         } catch (\Throwable $th) {
             return response()->json([
-                'status'=>false,
-                'message'=>$th->getMessage(),
-            ],500);
+                'status' => false,
+                'message' => $th->getMessage(),
+            ], 500);
         }
     }
 
@@ -108,19 +124,18 @@ class UsersController extends Controller
      * @urlParam id integer required The ID of the user. Example: 1
      * @apiResource App\Http\Resources\UserResource
      * @apiResourceModel App\Models\User
-    */
+     */
     public function edit($id)
     {
         try {
 
             $user = User::find($id);
             return new UserResource($user);
-            
         } catch (\Throwable $th) {
             return response()->json([
-                'status'=>false,
-                'message'=>$th->getMessage(),
-            ],500);
+                'status' => false,
+                'message' => $th->getMessage(),
+            ], 500);
         }
     }
 
@@ -140,36 +155,32 @@ class UsersController extends Controller
      *   "message": "User Updated Succeesfully"
      * }
      */
-    public function update(UserRequest $userRequest,$id)
+    public function update(UserRequest $userRequest, $id)
     {
         try {
-            
+
             $validated_user = $userRequest->validated();
 
             $updated_user = DB::table('users')
-              ->where('id', $id)
-              ->update($validated_user);
+                ->where('id', $id)
+                ->update($validated_user);
 
-              if ($updated_user) 
-              {
+            if ($updated_user) {
                 return response()->json([
-                    'status'=>true,
-                    'message'=>'User Updated Succeesfully',
-                ],200);
-              }
-              else
-              {
+                    'status' => true,
+                    'message' => 'User Updated Succeesfully',
+                ], 200);
+            } else {
                 return response()->json([
-                    'status'=>true,
-                    'message'=>'User Not Updated',
-                ],401);
-              }
-
+                    'status' => true,
+                    'message' => 'User Not Updated',
+                ], 401);
+            }
         } catch (\Throwable $th) {
             return response()->json([
-                'status'=>false,
-                'message'=>$th->getMessage(),
-            ],500);
+                'status' => false,
+                'message' => $th->getMessage(),
+            ], 500);
         }
     }
 
@@ -187,29 +198,25 @@ class UsersController extends Controller
     public function delete($id)
     {
         try {
-            
+
             $deleted = DB::table('users')->where('id', '=', $id)->delete();
 
-            if ($deleted)
-            {
+            if ($deleted) {
                 return response()->json([
-                    'status'=>true,
-                    'message'=>'User Deleted Succeesfully',
-                ],200);    
-            }
-            else 
-            {
+                    'status' => true,
+                    'message' => 'User Deleted Succeesfully',
+                ], 200);
+            } else {
                 return response()->json([
-                    'status'=>true,
-                    'message'=>'User Not Deleted',
-                ],401);  
+                    'status' => true,
+                    'message' => 'User Not Deleted',
+                ], 401);
             }
-
         } catch (\Throwable $th) {
             return response()->json([
-                'status'=>false,
-                'message'=>$th->getMessage(),
-            ],500);
+                'status' => false,
+                'message' => $th->getMessage(),
+            ], 500);
         }
     }
 }

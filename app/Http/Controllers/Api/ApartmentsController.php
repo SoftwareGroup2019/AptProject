@@ -70,7 +70,7 @@ class ApartmentsController extends Controller
      * @bodyParam password string required The password of apartment. Example: 123123
      * @bodyParam enableads boolean required The enabling advertisment of apartment. Example: 1
      * @bodyParam enableservice boolean required The enabling service of apartment. Example: 1
-     * @bodyParam passcode boolean required The code of apartment ordering. Example: 0000
+     * @bodyParam passcode string required The code of apartment ordering. Example: 0000
      * @bodyParam group_id string required The group of apartment ex: Lalav. Example: 1
      * @apiResource App\Http\Resources\ApartmentResource
      * @apiResourceModel App\Models\Apartment
@@ -128,7 +128,7 @@ class ApartmentsController extends Controller
      * @bodyParam password string required The password of apartment. Example: 123123
      * @bodyParam enableads boolean required The enabling advertisment of apartment. Example: 1
      * @bodyParam enableservice boolean required The enabling service of apartment. Example: 1
-     * @bodyParam passcode boolean required The code of apartment ordering. Example: 0000
+     * @bodyParam passcode string required The code of apartment ordering. Example: 0000
      * @bodyParam group_id string required The group of apartment ex: Lalav. Example: 1
      * @urlParam id integer required The ID of the apartment. Example: 1
      * @response 200 {
