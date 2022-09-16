@@ -9,8 +9,21 @@ use App\Models\Group;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
+
+/**
+ * @group Groups API
+ * 
+ * Managing all groups API Resource
+ */
+
 class GroupsController extends Controller
 {
+
+        /**
+     * fetch all groups
+     * 
+     * @return \Illuminate\Http\Response
+     */
     public function showall()
     {
 
@@ -30,6 +43,14 @@ class GroupsController extends Controller
        
     }
 
+        /**
+     * store group request
+     * 
+     * 
+     * @bodyParam groupname string required The name of users group. Example: Lalav
+     * @apiResource App\Http\Resources\GroupResource
+     * @apiResourceModel App\Models\Group
+     */
     public function store(GroupRequest $groupRequest)
     {
         try {
@@ -48,6 +69,15 @@ class GroupsController extends Controller
         }
     }
 
+    /**
+     * edit group request
+     *
+     * you can get groups by ID
+     * 
+     * @urlParam id integer required The ID of the Group. Example: 1
+     * @apiResource App\Http\Resources\GroupResource
+     * @apiResourceModel App\Models\Group
+    */
     public function edit($id)
     {
         try {
@@ -63,6 +93,19 @@ class GroupsController extends Controller
         }
     }
 
+
+    /**
+     * Update Group Request
+     * 
+     * you can update any group by ID
+     *
+     * @bodyParam groupname string required The updated name of users group. Example: testgroup
+     * @urlParam id integer required The ID of the group. Example: 1
+     * @response 200 {
+     *   "status": true,
+     *   "message": "Group Updated Succeesfully"
+     * }
+     */
     public function update(GroupRequest $groupRequest,$id)
     {
         try {
@@ -96,6 +139,18 @@ class GroupsController extends Controller
         }
     }
 
+
+        /**
+     * Delete Group Request
+     * 
+     * you can Delete any groups by ID
+     *
+     * @urlParam id integer required The ID of the group. Example: 1
+     * @response 200 {
+     *   "status": true,
+     *   "message": "Group Deleted Succeesfully"
+     * }
+     */
     public function delete($id)
     {
         try {

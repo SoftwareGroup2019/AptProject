@@ -20,6 +20,7 @@ class ApartmentResource extends JsonResource
             'password'=>$this->password,
             'enableads'=>$this->enableads,
             'enableservice'=>$this->enableservice,
+            'passcode'=>$this->passcode,
             'group_id'=>new GroupResource($this->group)
         ];
     }

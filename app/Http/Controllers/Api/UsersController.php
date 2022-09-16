@@ -13,8 +13,21 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
+
+/**
+ * @group Users API
+ * 
+ * Managing all roles API Resource
+ */
+
 class UsersController extends Controller
 {
+
+    /**
+     * fetch all users
+     * 
+     * @return \Illuminate\Http\Response
+     */
     public function showall()
     {
 
@@ -34,6 +47,18 @@ class UsersController extends Controller
        
     }
 
+
+    /**
+     * Create User Request
+     * 
+     * you can create any users with attaching role and group
+     *
+     * @apiResource App\Http\Resources\RoleResource
+     * @apiResourceModel App\Models\Role
+     * @apiResource App\Http\Resources\GroupResource
+     * @apiResourceModel App\Models\Group
+     * 
+     */
     public function create()
     {
         $roles = Role::all();
@@ -46,6 +71,17 @@ class UsersController extends Controller
         ];
     }
 
+    /**
+     * store user request
+     * 
+     * @bodyParam name string required The name of users. Example: ahmed
+     * @bodyParam email string required The email of users. Example: ahmed@app.com
+     * @bodyParam password string required The password of users. Example: 123123
+     * @bodyParam group_id string required The group name of users. Example: 1
+     * @bodyParam role_id string required The role of users. Example: 1
+     * @apiResource App\Http\Resources\UserResource
+     * @apiResourceModel App\Models\User
+     */
     public function store(UserRequest $userRequest)
     {
         try {
@@ -64,6 +100,15 @@ class UsersController extends Controller
         }
     }
 
+    /**
+     * edit user request
+     *
+     * you can get user by ID
+     * 
+     * @urlParam id integer required The ID of the user. Example: 1
+     * @apiResource App\Http\Resources\UserResource
+     * @apiResourceModel App\Models\User
+    */
     public function edit($id)
     {
         try {
@@ -79,6 +124,22 @@ class UsersController extends Controller
         }
     }
 
+    /**
+     * Update User Request
+     * 
+     * you can update any users by ID
+     *
+     * @bodyParam name string required The updated name of users. Example: ahmed
+     * @bodyParam email string required The updated email of users. Example: ahmed@app.com
+     * @bodyParam password string required The updated password of users. Example: 123123
+     * @bodyParam group_id string required The updated group name of users. Example: 1
+     * @bodyParam role_id string required The updated role of users. Example: 1
+     * @urlParam id integer required The ID of the user. Example: 1
+     * @response 200 {
+     *   "status": true,
+     *   "message": "User Updated Succeesfully"
+     * }
+     */
     public function update(UserRequest $userRequest,$id)
     {
         try {
@@ -112,6 +173,17 @@ class UsersController extends Controller
         }
     }
 
+    /**
+     * Delete Users Request
+     * 
+     * you can Delete any users by ID
+     *
+     * @urlParam id integer required The ID of the user. Example: 1
+     * @response 200 {
+     *   "status": true,
+     *   "message": "User Deleted Succeesfully"
+     * }
+     */
     public function delete($id)
     {
         try {

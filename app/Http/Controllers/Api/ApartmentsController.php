@@ -11,8 +11,21 @@ use App\Models\Group;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
+
+/**
+ * @group Apartments API
+ * 
+ * Managing all apartments API Resource
+ */
+
 class ApartmentsController extends Controller
 {
+
+    /**
+     * fetch all apartments
+     * 
+     * @return \Illuminate\Http\Response
+    */
     public function showall()
     {
 
@@ -32,6 +45,16 @@ class ApartmentsController extends Controller
        
     }
 
+
+    /**
+     * Create Apartment Request
+     * 
+     * you can create any apartment with attaching group
+     *
+     * @apiResource App\Http\Resources\GroupResource
+     * @apiResourceModel App\Models\Group
+     * 
+    */
     public function create()
     {
         $groups = Group::all();
@@ -39,6 +62,19 @@ class ApartmentsController extends Controller
  
     }
 
+
+    /**
+     * store apartment request
+     * 
+     * @bodyParam aptname string required The name of apartment. Example: A1-01
+     * @bodyParam password string required The password of apartment. Example: 123123
+     * @bodyParam enableads boolean required The enabling advertisment of apartment. Example: 1
+     * @bodyParam enableservice boolean required The enabling service of apartment. Example: 1
+     * @bodyParam passcode boolean required The code of apartment ordering. Example: 0000
+     * @bodyParam group_id string required The group of apartment ex: Lalav. Example: 1
+     * @apiResource App\Http\Resources\ApartmentResource
+     * @apiResourceModel App\Models\Apartment
+    */
     public function store(ApartmentRequest $apartmentRequest)
     {
         try {
@@ -57,6 +93,16 @@ class ApartmentsController extends Controller
         }
     }
 
+
+    /**
+     * edit apartmemt request
+     *
+     * you can get apartment by ID
+     * 
+     * @urlParam id integer required The ID of the apartment. Example: 1
+     * @apiResource App\Http\Resources\ApartmentResource
+     * @apiResourceModel App\Models\Apartment
+    */
     public function edit($id)
     {
         try {
@@ -72,6 +118,24 @@ class ApartmentsController extends Controller
         }
     }
 
+
+    /**
+     * Update Apartment Request
+     * 
+     * you can update any apartment by ID
+     *
+     * @bodyParam aptname string required The name of apartment. Example: A1-01
+     * @bodyParam password string required The password of apartment. Example: 123123
+     * @bodyParam enableads boolean required The enabling advertisment of apartment. Example: 1
+     * @bodyParam enableservice boolean required The enabling service of apartment. Example: 1
+     * @bodyParam passcode boolean required The code of apartment ordering. Example: 0000
+     * @bodyParam group_id string required The group of apartment ex: Lalav. Example: 1
+     * @urlParam id integer required The ID of the apartment. Example: 1
+     * @response 200 {
+     *   "status": true,
+     *   "message": "Apartment Updated Succeesfully"
+     * }
+    */
     public function update(ApartmentRequest $apartmentRequest,$id)
     {
         try {
@@ -105,6 +169,18 @@ class ApartmentsController extends Controller
         }
     }
 
+
+    /**
+     * Delete Apartment Request
+     * 
+     * you can Delete any apartment by ID
+     *
+     * @urlParam id integer required The ID of the apartment. Example: 1
+     * @response 200 {
+     *   "status": true,
+     *   "message": "Apartment Deleted Succeesfully"
+     * }
+    */
     public function delete($id)
     {
         try {

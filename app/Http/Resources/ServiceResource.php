@@ -21,6 +21,9 @@ class ServiceResource extends JsonResource
             'username'=>$this->username,
             'email'=>$this->email,
             'password'=>$this->password,
+            'status'=>$this->status,
+            'from'=>$this->from,
+            'to'=>$this->to,
             'group_id'=>new GroupResource($this->group),
         ];
     }

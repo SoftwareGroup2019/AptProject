@@ -1,0 +1,248 @@
+name: 'Roles API'
+description: |-
+
+  Managing all roles API Resource
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/roles/showall
+    metadata:
+      groupName: 'Roles API'
+      groupDescription: |-
+
+        Managing all roles API Resource
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'fetch all roles'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":[{"id":"1","rolename":"SuperAdmin"},{"id":"2","rolename":"Group"}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '55'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/roles/store
+    metadata:
+      groupName: 'Roles API'
+      groupDescription: |-
+
+        Managing all roles API Resource
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'store role request'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      rolename:
+        name: rolename
+        description: 'The name of users role.'
+        required: true
+        example: superadmin
+        type: string
+        custom: []
+    cleanBodyParameters:
+      rolename: superadmin
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":"1","rolename":"SuperAdmin"}}'
+        headers: []
+        description: '0'
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/roles/edit/{id}'
+    metadata:
+      groupName: 'Roles API'
+      groupDescription: |-
+
+        Managing all roles API Resource
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'edit role request'
+      description: 'you can any get role details by ID'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the role.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":"1","rolename":"SuperAdmin"}}'
+        headers: []
+        description: '0'
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - PUT
+    uri: 'api/roles/update/{id}'
+    metadata:
+      groupName: 'Roles API'
+      groupDescription: |-
+
+        Managing all roles API Resource
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Update Role Request'
+      description: 'you can update any roles by ID'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the role.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      rolename:
+        name: rolename
+        description: 'The updated name of users role.'
+        required: true
+        example: testuser
+        type: string
+        custom: []
+    cleanBodyParameters:
+      rolename: testuser
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+            "status": true,
+            "message": "Role Updated Succeesfully"
+          }
+        headers: []
+        description: '200'
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/roles/delete/{id}'
+    metadata:
+      groupName: 'Roles API'
+      groupDescription: |-
+
+        Managing all roles API Resource
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Delete Role Request'
+      description: 'you can Delete any roles by ID'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the role.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+            "status": true,
+            "message": "Role Deleted Succeesfully"
+          }
+        headers: []
+        description: '200'
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

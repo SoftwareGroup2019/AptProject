@@ -20,3 +20,15 @@ Route::get('/', function () {
 Route::get('/test',function(){
     return "This test URL";
 });
+
+Route::get('/apidocs',function(){
+    return view('scribe.index');
+});
+
+Route::get('/scribe/postman',function(){
+    return "test postman";
+})->name('scribe.postman');
+
+Route::get('/scribe/openapi',function(){
+    return "test postman";
+})->name('scribe.openapi');
