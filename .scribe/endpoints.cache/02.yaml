@@ -16,7 +16,7 @@ endpoints:
         Managing all groups API Resource
       subgroup: ''
       subgroupDescription: ''
-      title: ''
+      title: 'fetch all groups'
       description: ''
       authenticated: false
       custom: []
@@ -33,12 +33,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":[]}'
+        content: '{"data":[{"id":"1","groupname":"Lalav"},{"id":"2","groupname":"Pavilon"}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '54'
+          x-ratelimit-remaining: '57'
           access-control-allow-origin: '*'
         description: null
         custom: []
@@ -59,7 +59,7 @@ endpoints:
         Managing all groups API Resource
       subgroup: ''
       subgroupDescription: ''
-      title: ''
+      title: 'store group request'
       description: ''
       authenticated: false
       custom: []
@@ -73,15 +73,21 @@ endpoints:
     bodyParameters:
       groupname:
         name: groupname
-        description: ''
+        description: 'The name of users group.'
         required: true
-        example: voluptatem
+        example: Lalav
         type: string
         custom: []
     cleanBodyParameters:
-      groupname: voluptatem
+      groupname: Lalav
     fileParameters: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":"1","groupname":"Lalav"}}'
+        headers: []
+        description: '0'
+        custom: []
     responseFields: []
     auth: []
     controller: null
@@ -99,8 +105,8 @@ endpoints:
         Managing all groups API Resource
       subgroup: ''
       subgroupDescription: ''
-      title: ''
-      description: ''
+      title: 'edit group request'
+      description: 'you can get groups by ID'
       authenticated: false
       custom: []
     headers:
@@ -109,13 +115,13 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the edit.'
+        description: 'The ID of the Group.'
         required: true
-        example: aliquid
-        type: string
+        example: 1
+        type: integer
         custom: []
     cleanUrlParameters:
-      id: aliquid
+      id: 1
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -123,485 +129,10 @@ endpoints:
     fileParameters: []
     responses:
       -
-        status: 500
-        content: |-
-          {
-              "message": "Attempt to read property \"id\" on null",
-              "exception": "ErrorException",
-              "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\DelegatesToResource.php",
-              "line": 139,
-              "trace": [
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php",
-                      "line": 259,
-                      "function": "handleError",
-                      "class": "Illuminate\\Foundation\\Bootstrap\\HandleExceptions",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\DelegatesToResource.php",
-                      "line": 139,
-                      "function": "Illuminate\\Foundation\\Bootstrap\\{closure}",
-                      "class": "Illuminate\\Foundation\\Bootstrap\\HandleExceptions",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\app\\Http\\Resources\\GroupResource.php",
-                      "line": 18,
-                      "function": "__get",
-                      "class": "Illuminate\\Http\\Resources\\Json\\JsonResource",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\JsonResource.php",
-                      "line": 95,
-                      "function": "toArray",
-                      "class": "App\\Http\\Resources\\GroupResource",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\ResourceResponse.php",
-                      "line": 39,
-                      "function": "resolve",
-                      "class": "Illuminate\\Http\\Resources\\Json\\JsonResource",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\JsonResource.php",
-                      "line": 231,
-                      "function": "toResponse",
-                      "class": "Illuminate\\Http\\Resources\\Json\\ResourceResponse",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 815,
-                      "function": "toResponse",
-                      "class": "Illuminate\\Http\\Resources\\Json\\JsonResource",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 802,
-                      "function": "toResponse",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "::"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 725,
-                      "function": "prepareResponse",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 141,
-                      "function": "Illuminate\\Routing\\{closure}",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php",
-                      "line": 50,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Routing\\Middleware\\SubstituteBindings",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
-                      "line": 126,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
-                      "line": 102,
-                      "function": "handleRequest",
-                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
-                      "line": 54,
-                      "function": "handleRequestUsingNamedLimiter",
-                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 116,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 726,
-                      "function": "then",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 703,
-                      "function": "runRouteWithinStack",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 667,
-                      "function": "runRoute",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 656,
-                      "function": "dispatchToRoute",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 167,
-                      "function": "dispatch",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 141,
-                      "function": "Illuminate\\Foundation\\Http\\{closure}",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
-                      "line": 21,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php",
-                      "line": 31,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
-                      "line": 21,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php",
-                      "line": 40,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php",
-                      "line": 27,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php",
-                      "line": 86,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php",
-                      "line": 62,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Http\\Middleware\\HandleCors",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php",
-                      "line": 39,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Http\\Middleware\\TrustProxies",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 116,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 142,
-                      "function": "then",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 111,
-                      "function": "sendRequestThroughRouter",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 299,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 287,
-                      "function": "callLaravelOrLumenRoute",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 89,
-                      "function": "makeApiCall",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 45,
-                      "function": "makeResponseCall",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 35,
-                      "function": "makeResponseCallIfConditionsPass",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 209,
-                      "function": "__invoke",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 166,
-                      "function": "iterateThroughStrategies",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 95,
-                      "function": "fetchResponses",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 122,
-                      "function": "processRoute",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 69,
-                      "function": "extractEndpointsInfoFromLaravelApp",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 47,
-                      "function": "extractEndpointsInfoAndWriteToDisk",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php",
-                      "line": 53,
-                      "function": "get",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 36,
-                      "function": "handle",
-                      "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php",
-                      "line": 41,
-                      "function": "Illuminate\\Container\\{closure}",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 93,
-                      "function": "unwrapIfClosure",
-                      "class": "Illuminate\\Container\\Util",
-                      "type": "::"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 37,
-                      "function": "callBoundMethod",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php",
-                      "line": 651,
-                      "function": "call",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
-                      "line": 144,
-                      "function": "call",
-                      "class": "Illuminate\\Container\\Container",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Command\\Command.php",
-                      "line": 308,
-                      "function": "execute",
-                      "class": "Illuminate\\Console\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
-                      "line": 126,
-                      "function": "run",
-                      "class": "Symfony\\Component\\Console\\Command\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php",
-                      "line": 1002,
-                      "function": "run",
-                      "class": "Illuminate\\Console\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php",
-                      "line": 299,
-                      "function": "doRunCommand",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php",
-                      "line": 171,
-                      "function": "doRun",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php",
-                      "line": 102,
-                      "function": "run",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php",
-                      "line": 129,
-                      "function": "run",
-                      "class": "Illuminate\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "E:\\AllProject\\AptProject\\artisan",
-                      "line": 37,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Console\\Kernel",
-                      "type": "->"
-                  }
-              ]
-          }
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '53'
-          access-control-allow-origin: '*'
-        description: null
+        status: 200
+        content: '{"data":{"id":"1","groupname":"Lalav"}}'
+        headers: []
+        description: '0'
         custom: []
     responseFields: []
     auth: []
@@ -620,8 +151,8 @@ endpoints:
         Managing all groups API Resource
       subgroup: ''
       subgroupDescription: ''
-      title: ''
-      description: ''
+      title: 'Update Group Request'
+      description: 'you can update any group by ID'
       authenticated: false
       custom: []
     headers:
@@ -630,27 +161,37 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the update.'
+        description: 'The ID of the group.'
         required: true
-        example: debitis
-        type: string
+        example: 1
+        type: integer
         custom: []
     cleanUrlParameters:
-      id: debitis
+      id: 1
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters:
       groupname:
         name: groupname
-        description: ''
+        description: 'The updated name of users group.'
         required: true
-        example: qui
+        example: testgroup
         type: string
         custom: []
     cleanBodyParameters:
-      groupname: qui
+      groupname: testgroup
     fileParameters: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+            "status": true,
+            "message": "Group Updated Succeesfully"
+          }
+        headers: []
+        description: '200'
+        custom: []
     responseFields: []
     auth: []
     controller: null
@@ -668,8 +209,8 @@ endpoints:
         Managing all groups API Resource
       subgroup: ''
       subgroupDescription: ''
-      title: ''
-      description: ''
+      title: 'Delete Group Request'
+      description: 'you can Delete any groups by ID'
       authenticated: false
       custom: []
     headers:
@@ -678,19 +219,29 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the delete.'
+        description: 'The ID of the group.'
         required: true
-        example: et
-        type: string
+        example: 1
+        type: integer
         custom: []
     cleanUrlParameters:
-      id: et
+      id: 1
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
     cleanBodyParameters: []
     fileParameters: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+            "status": true,
+            "message": "Group Deleted Succeesfully"
+          }
+        headers: []
+        description: '200'
+        custom: []
     responseFields: []
     auth: []
     controller: null

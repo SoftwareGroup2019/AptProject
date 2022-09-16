@@ -72,22 +72,22 @@
                 </li>
                                     <ul id="tocify-subheader-apartments-api" class="tocify-subheader">
                                                     <li class="tocify-item level-2" data-unique="apartments-api-GETapi-apt-showall">
-                                <a href="#apartments-api-GETapi-apt-showall">GET api/apt/showall</a>
+                                <a href="#apartments-api-GETapi-apt-showall">fetch all apartments</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="apartments-api-GETapi-apt-create">
-                                <a href="#apartments-api-GETapi-apt-create">GET api/apt/create</a>
+                                <a href="#apartments-api-GETapi-apt-create">Create Apartment Request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="apartments-api-POSTapi-apt-store">
-                                <a href="#apartments-api-POSTapi-apt-store">POST api/apt/store</a>
+                                <a href="#apartments-api-POSTapi-apt-store">store apartment request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="apartments-api-GETapi-apt-edit--id-">
-                                <a href="#apartments-api-GETapi-apt-edit--id-">GET api/apt/edit/{id}</a>
+                                <a href="#apartments-api-GETapi-apt-edit--id-">edit apartmemt request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="apartments-api-PUTapi-apt-update--id-">
-                                <a href="#apartments-api-PUTapi-apt-update--id-">PUT api/apt/update/{id}</a>
+                                <a href="#apartments-api-PUTapi-apt-update--id-">Update Apartment Request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="apartments-api-DELETEapi-apt-delete--id-">
-                                <a href="#apartments-api-DELETEapi-apt-delete--id-">DELETE api/apt/delete/{id}</a>
+                                <a href="#apartments-api-DELETEapi-apt-delete--id-">Delete Apartment Request</a>
                             </li>
                                                                         </ul>
                             </ul>
@@ -97,19 +97,19 @@
                 </li>
                                     <ul id="tocify-subheader-groups-api" class="tocify-subheader">
                                                     <li class="tocify-item level-2" data-unique="groups-api-GETapi-groups-showall">
-                                <a href="#groups-api-GETapi-groups-showall">GET api/groups/showall</a>
+                                <a href="#groups-api-GETapi-groups-showall">fetch all groups</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="groups-api-POSTapi-groups-store">
-                                <a href="#groups-api-POSTapi-groups-store">POST api/groups/store</a>
+                                <a href="#groups-api-POSTapi-groups-store">store group request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="groups-api-GETapi-groups-edit--id-">
-                                <a href="#groups-api-GETapi-groups-edit--id-">GET api/groups/edit/{id}</a>
+                                <a href="#groups-api-GETapi-groups-edit--id-">edit group request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="groups-api-PUTapi-groups-update--id-">
-                                <a href="#groups-api-PUTapi-groups-update--id-">PUT api/groups/update/{id}</a>
+                                <a href="#groups-api-PUTapi-groups-update--id-">Update Group Request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="groups-api-DELETEapi-groups-delete--id-">
-                                <a href="#groups-api-DELETEapi-groups-delete--id-">DELETE api/groups/delete/{id}</a>
+                                <a href="#groups-api-DELETEapi-groups-delete--id-">Delete Group Request</a>
                             </li>
                                                                         </ul>
                             </ul>
@@ -141,22 +141,22 @@
                 </li>
                                     <ul id="tocify-subheader-services-api" class="tocify-subheader">
                                                     <li class="tocify-item level-2" data-unique="services-api-GETapi-service-showall">
-                                <a href="#services-api-GETapi-service-showall">GET api/service/showall</a>
+                                <a href="#services-api-GETapi-service-showall">fetch all services</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="services-api-GETapi-service-create">
-                                <a href="#services-api-GETapi-service-create">GET api/service/create</a>
+                                <a href="#services-api-GETapi-service-create">Create Service Request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="services-api-POSTapi-service-store">
-                                <a href="#services-api-POSTapi-service-store">POST api/service/store</a>
+                                <a href="#services-api-POSTapi-service-store">store service request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="services-api-GETapi-service-edit--id-">
-                                <a href="#services-api-GETapi-service-edit--id-">GET api/service/edit/{id}</a>
+                                <a href="#services-api-GETapi-service-edit--id-">edit service request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="services-api-PUTapi-service-update--id-">
-                                <a href="#services-api-PUTapi-service-update--id-">PUT api/service/update/{id}</a>
+                                <a href="#services-api-PUTapi-service-update--id-">Update Service Request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="services-api-DELETEapi-service-delete--id-">
-                                <a href="#services-api-DELETEapi-service-delete--id-">DELETE api/service/delete/{id}</a>
+                                <a href="#services-api-DELETEapi-service-delete--id-">Delete Service Request</a>
                             </li>
                                                                         </ul>
                             </ul>
@@ -166,22 +166,22 @@
                 </li>
                                     <ul id="tocify-subheader-users-api" class="tocify-subheader">
                                                     <li class="tocify-item level-2" data-unique="users-api-GETapi-users-showall">
-                                <a href="#users-api-GETapi-users-showall">GET api/users/showall</a>
+                                <a href="#users-api-GETapi-users-showall">fetch all users</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="users-api-GETapi-users-create">
-                                <a href="#users-api-GETapi-users-create">GET api/users/create</a>
+                                <a href="#users-api-GETapi-users-create">Create User Request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="users-api-POSTapi-users-store">
-                                <a href="#users-api-POSTapi-users-store">POST api/users/store</a>
+                                <a href="#users-api-POSTapi-users-store">store user request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="users-api-GETapi-users-edit--id-">
-                                <a href="#users-api-GETapi-users-edit--id-">GET api/users/edit/{id}</a>
+                                <a href="#users-api-GETapi-users-edit--id-">edit user request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="users-api-PUTapi-users-update--id-">
-                                <a href="#users-api-PUTapi-users-update--id-">PUT api/users/update/{id}</a>
+                                <a href="#users-api-PUTapi-users-update--id-">Update User Request</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="users-api-DELETEapi-users-delete--id-">
-                                <a href="#users-api-DELETEapi-users-delete--id-">DELETE api/users/delete/{id}</a>
+                                <a href="#users-api-DELETEapi-users-delete--id-">Delete Users Request</a>
                             </li>
                                                                         </ul>
                             </ul>
@@ -216,7 +216,7 @@ You can switch the language used with the tabs at the top right (or from the nav
 
     <p>Managing all apartments API Resource</p>
 
-                                <h2 id="apartments-api-GETapi-apt-showall">GET api/apt/showall</h2>
+                                <h2 id="apartments-api-GETapi-apt-showall">fetch all apartments</h2>
 
 <p>
 </p>
@@ -262,7 +262,7 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 52
+x-ratelimit-remaining: 56
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -313,12 +313,12 @@ access-control-allow-origin: *
         </p>
                     </form>
 
-                    <h2 id="apartments-api-GETapi-apt-create">GET api/apt/create</h2>
+                    <h2 id="apartments-api-GETapi-apt-create">Create Apartment Request</h2>
 
 <p>
 </p>
 
-
+<p>you can create any apartment with attaching group</p>
 
 <span id="example-requests-GETapi-apt-create">
 <blockquote>Example request:</blockquote>
@@ -352,20 +352,13 @@ fetch(url, {
             <blockquote>
             <p>Example response (200):</p>
         </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 51
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
+                <pre>
 
 <code class="language-json">{
-    &quot;data&quot;: []
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;1&quot;,
+        &quot;groupname&quot;: &quot;Lalav&quot;
+    }
 }</code>
  </pre>
     </span>
@@ -410,7 +403,7 @@ access-control-allow-origin: *
         </p>
                     </form>
 
-                    <h2 id="apartments-api-POSTapi-apt-store">POST api/apt/store</h2>
+                    <h2 id="apartments-api-POSTapi-apt-store">store apartment request</h2>
 
 <p>
 </p>
@@ -427,11 +420,12 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"aptname\": \"culpa\",
-    \"password\": \"et\",
-    \"enableads\": \"dicta\",
-    \"enableservice\": \"architecto\",
-    \"group_id\": \"qui\"
+    \"aptname\": \"A1-01\",
+    \"password\": \"123123\",
+    \"enableads\": true,
+    \"enableservice\": true,
+    \"group_id\": \"1\",
+    \"passcode\": \"0000\"
 }"
 </code></pre></div>
 
@@ -447,11 +441,12 @@ const headers = {
 };
 
 let body = {
-    "aptname": "culpa",
-    "password": "et",
-    "enableads": "dicta",
-    "enableservice": "architecto",
-    "group_id": "qui"
+    "aptname": "A1-01",
+    "password": "123123",
+    "enableads": true,
+    "enableservice": true,
+    "group_id": "1",
+    "passcode": "0000"
 };
 
 fetch(url, {
@@ -463,7 +458,24 @@ fetch(url, {
 </span>
 
 <span id="example-responses-POSTapi-apt-store">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;&quot;,
+        &quot;aptname&quot;: null,
+        &quot;password&quot;: null,
+        &quot;enableads&quot;: null,
+        &quot;enableservice&quot;: null,
+        &quot;passcode&quot;: null,
+        &quot;group_id&quot;: null
+    }
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-POSTapi-apt-store" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-POSTapi-apt-store"></span>:
@@ -511,10 +523,10 @@ fetch(url, {
                 <input type="text"
                name="aptname"
                data-endpoint="POSTapi-apt-store"
-               value="culpa"
+               value="A1-01"
                data-component="body" hidden>
     <br>
-
+<p>The name of apartment.</p>
         </p>
                 <p>
             <b><code>password</code></b>&nbsp;&nbsp;
@@ -523,34 +535,56 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-apt-store"
-               value="et"
+               value="123123"
                data-component="body" hidden>
     <br>
-
+<p>The password of apartment.</p>
         </p>
                 <p>
             <b><code>enableads</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>boolean</small>&nbsp;
  &nbsp;
-                <input type="text"
-               name="enableads"
-               data-endpoint="POSTapi-apt-store"
-               value="dicta"
-               data-component="body" hidden>
+                <label data-endpoint="POSTapi-apt-store" hidden>
+            <input type="radio" name="enableads"
+                   value="true"
+                   data-endpoint="POSTapi-apt-store"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="POSTapi-apt-store" hidden>
+            <input type="radio" name="enableads"
+                   value="false"
+                   data-endpoint="POSTapi-apt-store"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
     <br>
-
+<p>The enabling advertisment of apartment.</p>
         </p>
                 <p>
             <b><code>enableservice</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>boolean</small>&nbsp;
  &nbsp;
-                <input type="text"
-               name="enableservice"
-               data-endpoint="POSTapi-apt-store"
-               value="architecto"
-               data-component="body" hidden>
+                <label data-endpoint="POSTapi-apt-store" hidden>
+            <input type="radio" name="enableservice"
+                   value="true"
+                   data-endpoint="POSTapi-apt-store"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="POSTapi-apt-store" hidden>
+            <input type="radio" name="enableservice"
+                   value="false"
+                   data-endpoint="POSTapi-apt-store"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
     <br>
-
+<p>The enabling service of apartment.</p>
         </p>
                 <p>
             <b><code>group_id</code></b>&nbsp;&nbsp;
@@ -559,19 +593,31 @@ fetch(url, {
                 <input type="text"
                name="group_id"
                data-endpoint="POSTapi-apt-store"
-               value="qui"
+               value="1"
                data-component="body" hidden>
     <br>
-
+<p>The group of apartment ex: Lalav.</p>
+        </p>
+                <p>
+            <b><code>passcode</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="passcode"
+               data-endpoint="POSTapi-apt-store"
+               value="0000"
+               data-component="body" hidden>
+    <br>
+<p>The code of apartment ordering.</p>
         </p>
         </form>
 
-                    <h2 id="apartments-api-GETapi-apt-edit--id-">GET api/apt/edit/{id}</h2>
+                    <h2 id="apartments-api-GETapi-apt-edit--id-">edit apartmemt request</h2>
 
 <p>
 </p>
 
-
+<p>you can get apartment by ID</p>
 
 <span id="example-requests-GETapi-apt-edit--id-">
 <blockquote>Example request:</blockquote>
@@ -579,14 +625,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/apt/edit/exercitationem" \
+    --get "http://localhost/api/apt/edit/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/apt/edit/exercitationem"
+    "http://localhost/api/apt/edit/1"
 );
 
 const headers = {
@@ -603,489 +649,20 @@ fetch(url, {
 
 <span id="example-responses-GETapi-apt-edit--id-">
             <blockquote>
-            <p>Example response (500):</p>
+            <p>Example response (200):</p>
         </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 50
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
+                <pre>
 
 <code class="language-json">{
-    &quot;message&quot;: &quot;Attempt to read property \&quot;id\&quot; on null&quot;,
-    &quot;exception&quot;: &quot;ErrorException&quot;,
-    &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\DelegatesToResource.php&quot;,
-    &quot;line&quot;: 139,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php&quot;,
-            &quot;line&quot;: 259,
-            &quot;function&quot;: &quot;handleError&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\HandleExceptions&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\DelegatesToResource.php&quot;,
-            &quot;line&quot;: 139,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\HandleExceptions&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\app\\Http\\Resources\\ApartmentResource.php&quot;,
-            &quot;line&quot;: 18,
-            &quot;function&quot;: &quot;__get&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\JsonResource.php&quot;,
-            &quot;line&quot;: 95,
-            &quot;function&quot;: &quot;toArray&quot;,
-            &quot;class&quot;: &quot;App\\Http\\Resources\\ApartmentResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\ResourceResponse.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;resolve&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\JsonResource.php&quot;,
-            &quot;line&quot;: 231,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\ResourceResponse&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 815,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 802,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 725,
-            &quot;function&quot;: &quot;prepareResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 141,
-            &quot;function&quot;: &quot;Illuminate\\Routing\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php&quot;,
-            &quot;line&quot;: 50,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 126,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 102,
-            &quot;function&quot;: &quot;handleRequest&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 54,
-            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 726,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 703,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 667,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 656,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 141,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
-            &quot;line&quot;: 31,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php&quot;,
-            &quot;line&quot;: 62,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\HandleCors&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 142,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 89,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 45,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 35,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 209,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 166,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 95,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 122,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 69,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 47,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 53,
-            &quot;function&quot;: &quot;get&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 41,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 651,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 144,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 308,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 126,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 1002,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 171,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 102,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;&quot;,
+        &quot;aptname&quot;: null,
+        &quot;password&quot;: null,
+        &quot;enableads&quot;: null,
+        &quot;enableservice&quot;: null,
+        &quot;passcode&quot;: null,
+        &quot;group_id&quot;: null
+    }
 }</code>
  </pre>
     </span>
@@ -1131,24 +708,24 @@ access-control-allow-origin: *
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="GETapi-apt-edit--id-"
-               value="exercitationem"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the edit.</p>
+<p>The ID of the apartment.</p>
             </p>
                     </form>
 
-                    <h2 id="apartments-api-PUTapi-apt-update--id-">PUT api/apt/update/{id}</h2>
+                    <h2 id="apartments-api-PUTapi-apt-update--id-">Update Apartment Request</h2>
 
 <p>
 </p>
 
-
+<p>you can update any apartment by ID</p>
 
 <span id="example-requests-PUTapi-apt-update--id-">
 <blockquote>Example request:</blockquote>
@@ -1156,22 +733,23 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost/api/apt/update/porro" \
+    "http://localhost/api/apt/update/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"aptname\": \"cupiditate\",
-    \"password\": \"voluptate\",
-    \"enableads\": \"unde\",
-    \"enableservice\": \"sed\",
-    \"group_id\": \"impedit\"
+    \"aptname\": \"A1-01\",
+    \"password\": \"123123\",
+    \"enableads\": true,
+    \"enableservice\": true,
+    \"group_id\": \"1\",
+    \"passcode\": \"0000\"
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/apt/update/porro"
+    "http://localhost/api/apt/update/1"
 );
 
 const headers = {
@@ -1180,11 +758,12 @@ const headers = {
 };
 
 let body = {
-    "aptname": "cupiditate",
-    "password": "voluptate",
-    "enableads": "unde",
-    "enableservice": "sed",
-    "group_id": "impedit"
+    "aptname": "A1-01",
+    "password": "123123",
+    "enableads": true,
+    "enableservice": true,
+    "group_id": "1",
+    "passcode": "0000"
 };
 
 fetch(url, {
@@ -1196,7 +775,17 @@ fetch(url, {
 </span>
 
 <span id="example-responses-PUTapi-apt-update--id-">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;message&quot;: &quot;Apartment Updated Succeesfully&quot;
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-PUTapi-apt-update--id-" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-PUTapi-apt-update--id-"></span>:
@@ -1239,15 +828,15 @@ fetch(url, {
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="PUTapi-apt-update--id-"
-               value="porro"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the update.</p>
+<p>The ID of the apartment.</p>
             </p>
                             <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
         <p>
@@ -1257,10 +846,10 @@ fetch(url, {
                 <input type="text"
                name="aptname"
                data-endpoint="PUTapi-apt-update--id-"
-               value="cupiditate"
+               value="A1-01"
                data-component="body" hidden>
     <br>
-
+<p>The name of apartment.</p>
         </p>
                 <p>
             <b><code>password</code></b>&nbsp;&nbsp;
@@ -1269,34 +858,56 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-apt-update--id-"
-               value="voluptate"
+               value="123123"
                data-component="body" hidden>
     <br>
-
+<p>The password of apartment.</p>
         </p>
                 <p>
             <b><code>enableads</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>boolean</small>&nbsp;
  &nbsp;
-                <input type="text"
-               name="enableads"
-               data-endpoint="PUTapi-apt-update--id-"
-               value="unde"
-               data-component="body" hidden>
+                <label data-endpoint="PUTapi-apt-update--id-" hidden>
+            <input type="radio" name="enableads"
+                   value="true"
+                   data-endpoint="PUTapi-apt-update--id-"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="PUTapi-apt-update--id-" hidden>
+            <input type="radio" name="enableads"
+                   value="false"
+                   data-endpoint="PUTapi-apt-update--id-"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
     <br>
-
+<p>The enabling advertisment of apartment.</p>
         </p>
                 <p>
             <b><code>enableservice</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>boolean</small>&nbsp;
  &nbsp;
-                <input type="text"
-               name="enableservice"
-               data-endpoint="PUTapi-apt-update--id-"
-               value="sed"
-               data-component="body" hidden>
+                <label data-endpoint="PUTapi-apt-update--id-" hidden>
+            <input type="radio" name="enableservice"
+                   value="true"
+                   data-endpoint="PUTapi-apt-update--id-"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="PUTapi-apt-update--id-" hidden>
+            <input type="radio" name="enableservice"
+                   value="false"
+                   data-endpoint="PUTapi-apt-update--id-"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
     <br>
-
+<p>The enabling service of apartment.</p>
         </p>
                 <p>
             <b><code>group_id</code></b>&nbsp;&nbsp;
@@ -1305,19 +916,31 @@ fetch(url, {
                 <input type="text"
                name="group_id"
                data-endpoint="PUTapi-apt-update--id-"
-               value="impedit"
+               value="1"
                data-component="body" hidden>
     <br>
-
+<p>The group of apartment ex: Lalav.</p>
+        </p>
+                <p>
+            <b><code>passcode</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="passcode"
+               data-endpoint="PUTapi-apt-update--id-"
+               value="0000"
+               data-component="body" hidden>
+    <br>
+<p>The code of apartment ordering.</p>
         </p>
         </form>
 
-                    <h2 id="apartments-api-DELETEapi-apt-delete--id-">DELETE api/apt/delete/{id}</h2>
+                    <h2 id="apartments-api-DELETEapi-apt-delete--id-">Delete Apartment Request</h2>
 
 <p>
 </p>
 
-
+<p>you can Delete any apartment by ID</p>
 
 <span id="example-requests-DELETEapi-apt-delete--id-">
 <blockquote>Example request:</blockquote>
@@ -1325,14 +948,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost/api/apt/delete/repellendus" \
+    "http://localhost/api/apt/delete/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/apt/delete/repellendus"
+    "http://localhost/api/apt/delete/1"
 );
 
 const headers = {
@@ -1348,7 +971,17 @@ fetch(url, {
 </span>
 
 <span id="example-responses-DELETEapi-apt-delete--id-">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;message&quot;: &quot;Apartment Deleted Succeesfully&quot;
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-DELETEapi-apt-delete--id-" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-DELETEapi-apt-delete--id-"></span>:
@@ -1391,15 +1024,15 @@ fetch(url, {
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="DELETEapi-apt-delete--id-"
-               value="repellendus"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the delete.</p>
+<p>The ID of the apartment.</p>
             </p>
                     </form>
 
@@ -1407,7 +1040,7 @@ fetch(url, {
 
     <p>Managing all groups API Resource</p>
 
-                                <h2 id="groups-api-GETapi-groups-showall">GET api/groups/showall</h2>
+                                <h2 id="groups-api-GETapi-groups-showall">fetch all groups</h2>
 
 <p>
 </p>
@@ -1453,13 +1086,22 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 54
+x-ratelimit-remaining: 57
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;data&quot;: []
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: &quot;1&quot;,
+            &quot;groupname&quot;: &quot;Lalav&quot;
+        },
+        {
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;groupname&quot;: &quot;Pavilon&quot;
+        }
+    ]
 }</code>
  </pre>
     </span>
@@ -1504,7 +1146,7 @@ access-control-allow-origin: *
         </p>
                     </form>
 
-                    <h2 id="groups-api-POSTapi-groups-store">POST api/groups/store</h2>
+                    <h2 id="groups-api-POSTapi-groups-store">store group request</h2>
 
 <p>
 </p>
@@ -1521,7 +1163,7 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"groupname\": \"voluptatem\"
+    \"groupname\": \"Lalav\"
 }"
 </code></pre></div>
 
@@ -1537,7 +1179,7 @@ const headers = {
 };
 
 let body = {
-    "groupname": "voluptatem"
+    "groupname": "Lalav"
 };
 
 fetch(url, {
@@ -1549,7 +1191,19 @@ fetch(url, {
 </span>
 
 <span id="example-responses-POSTapi-groups-store">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;1&quot;,
+        &quot;groupname&quot;: &quot;Lalav&quot;
+    }
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-POSTapi-groups-store" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-POSTapi-groups-store"></span>:
@@ -1597,19 +1251,19 @@ fetch(url, {
                 <input type="text"
                name="groupname"
                data-endpoint="POSTapi-groups-store"
-               value="voluptatem"
+               value="Lalav"
                data-component="body" hidden>
     <br>
-
+<p>The name of users group.</p>
         </p>
         </form>
 
-                    <h2 id="groups-api-GETapi-groups-edit--id-">GET api/groups/edit/{id}</h2>
+                    <h2 id="groups-api-GETapi-groups-edit--id-">edit group request</h2>
 
 <p>
 </p>
 
-
+<p>you can get groups by ID</p>
 
 <span id="example-requests-GETapi-groups-edit--id-">
 <blockquote>Example request:</blockquote>
@@ -1617,14 +1271,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/groups/edit/aliquid" \
+    --get "http://localhost/api/groups/edit/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/groups/edit/aliquid"
+    "http://localhost/api/groups/edit/1"
 );
 
 const headers = {
@@ -1641,489 +1295,15 @@ fetch(url, {
 
 <span id="example-responses-GETapi-groups-edit--id-">
             <blockquote>
-            <p>Example response (500):</p>
+            <p>Example response (200):</p>
         </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 53
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
+                <pre>
 
 <code class="language-json">{
-    &quot;message&quot;: &quot;Attempt to read property \&quot;id\&quot; on null&quot;,
-    &quot;exception&quot;: &quot;ErrorException&quot;,
-    &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\DelegatesToResource.php&quot;,
-    &quot;line&quot;: 139,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php&quot;,
-            &quot;line&quot;: 259,
-            &quot;function&quot;: &quot;handleError&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\HandleExceptions&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\DelegatesToResource.php&quot;,
-            &quot;line&quot;: 139,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\HandleExceptions&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\app\\Http\\Resources\\GroupResource.php&quot;,
-            &quot;line&quot;: 18,
-            &quot;function&quot;: &quot;__get&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\JsonResource.php&quot;,
-            &quot;line&quot;: 95,
-            &quot;function&quot;: &quot;toArray&quot;,
-            &quot;class&quot;: &quot;App\\Http\\Resources\\GroupResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\ResourceResponse.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;resolve&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\JsonResource.php&quot;,
-            &quot;line&quot;: 231,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\ResourceResponse&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 815,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 802,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 725,
-            &quot;function&quot;: &quot;prepareResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 141,
-            &quot;function&quot;: &quot;Illuminate\\Routing\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php&quot;,
-            &quot;line&quot;: 50,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 126,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 102,
-            &quot;function&quot;: &quot;handleRequest&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 54,
-            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 726,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 703,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 667,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 656,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 141,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
-            &quot;line&quot;: 31,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php&quot;,
-            &quot;line&quot;: 62,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\HandleCors&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 142,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 89,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 45,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 35,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 209,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 166,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 95,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 122,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 69,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 47,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 53,
-            &quot;function&quot;: &quot;get&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 41,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 651,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 144,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 308,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 126,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 1002,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 171,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 102,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;1&quot;,
+        &quot;groupname&quot;: &quot;Lalav&quot;
+    }
 }</code>
  </pre>
     </span>
@@ -2169,24 +1349,24 @@ access-control-allow-origin: *
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="GETapi-groups-edit--id-"
-               value="aliquid"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the edit.</p>
+<p>The ID of the Group.</p>
             </p>
                     </form>
 
-                    <h2 id="groups-api-PUTapi-groups-update--id-">PUT api/groups/update/{id}</h2>
+                    <h2 id="groups-api-PUTapi-groups-update--id-">Update Group Request</h2>
 
 <p>
 </p>
 
-
+<p>you can update any group by ID</p>
 
 <span id="example-requests-PUTapi-groups-update--id-">
 <blockquote>Example request:</blockquote>
@@ -2194,18 +1374,18 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost/api/groups/update/debitis" \
+    "http://localhost/api/groups/update/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"groupname\": \"qui\"
+    \"groupname\": \"testgroup\"
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/groups/update/debitis"
+    "http://localhost/api/groups/update/1"
 );
 
 const headers = {
@@ -2214,7 +1394,7 @@ const headers = {
 };
 
 let body = {
-    "groupname": "qui"
+    "groupname": "testgroup"
 };
 
 fetch(url, {
@@ -2226,7 +1406,17 @@ fetch(url, {
 </span>
 
 <span id="example-responses-PUTapi-groups-update--id-">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;message&quot;: &quot;Group Updated Succeesfully&quot;
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-PUTapi-groups-update--id-" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-PUTapi-groups-update--id-"></span>:
@@ -2269,15 +1459,15 @@ fetch(url, {
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="PUTapi-groups-update--id-"
-               value="debitis"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the update.</p>
+<p>The ID of the group.</p>
             </p>
                             <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
         <p>
@@ -2287,19 +1477,19 @@ fetch(url, {
                 <input type="text"
                name="groupname"
                data-endpoint="PUTapi-groups-update--id-"
-               value="qui"
+               value="testgroup"
                data-component="body" hidden>
     <br>
-
+<p>The updated name of users group.</p>
         </p>
         </form>
 
-                    <h2 id="groups-api-DELETEapi-groups-delete--id-">DELETE api/groups/delete/{id}</h2>
+                    <h2 id="groups-api-DELETEapi-groups-delete--id-">Delete Group Request</h2>
 
 <p>
 </p>
 
-
+<p>you can Delete any groups by ID</p>
 
 <span id="example-requests-DELETEapi-groups-delete--id-">
 <blockquote>Example request:</blockquote>
@@ -2307,14 +1497,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost/api/groups/delete/et" \
+    "http://localhost/api/groups/delete/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/groups/delete/et"
+    "http://localhost/api/groups/delete/1"
 );
 
 const headers = {
@@ -2330,7 +1520,17 @@ fetch(url, {
 </span>
 
 <span id="example-responses-DELETEapi-groups-delete--id-">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;message&quot;: &quot;Group Deleted Succeesfully&quot;
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-DELETEapi-groups-delete--id-" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-DELETEapi-groups-delete--id-"></span>:
@@ -2373,15 +1573,15 @@ fetch(url, {
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="DELETEapi-groups-delete--id-"
-               value="et"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the delete.</p>
+<p>The ID of the group.</p>
             </p>
                     </form>
 
@@ -2435,7 +1635,7 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 55
+x-ratelimit-remaining: 58
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -2938,7 +2138,7 @@ fetch(url, {
 
     <p>Managing all services API Resource</p>
 
-                                <h2 id="services-api-GETapi-service-showall">GET api/service/showall</h2>
+                                <h2 id="services-api-GETapi-service-showall">fetch all services</h2>
 
 <p>
 </p>
@@ -2984,7 +2184,7 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 49
+x-ratelimit-remaining: 55
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -3035,12 +2235,12 @@ access-control-allow-origin: *
         </p>
                     </form>
 
-                    <h2 id="services-api-GETapi-service-create">GET api/service/create</h2>
+                    <h2 id="services-api-GETapi-service-create">Create Service Request</h2>
 
 <p>
 </p>
 
-
+<p>you can create any services with attaching group</p>
 
 <span id="example-requests-GETapi-service-create">
 <blockquote>Example request:</blockquote>
@@ -3074,20 +2274,13 @@ fetch(url, {
             <blockquote>
             <p>Example response (200):</p>
         </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 48
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
+                <pre>
 
 <code class="language-json">{
-    &quot;data&quot;: []
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;1&quot;,
+        &quot;groupname&quot;: &quot;Lalav&quot;
+    }
 }</code>
  </pre>
     </span>
@@ -3132,7 +2325,7 @@ access-control-allow-origin: *
         </p>
                     </form>
 
-                    <h2 id="services-api-POSTapi-service-store">POST api/service/store</h2>
+                    <h2 id="services-api-POSTapi-service-store">store service request</h2>
 
 <p>
 </p>
@@ -3149,12 +2342,15 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"servicename\": \"ab\",
-    \"title\": \"velit\",
-    \"username\": \"accusantium\",
-    \"email\": \"tempore\",
-    \"password\": \"modi\",
-    \"group_id\": \"sint\"
+    \"servicename\": \"Laundry\",
+    \"title\": \"Golden Laundry Co.\",
+    \"username\": \"Sardar Karkuki\",
+    \"email\": \"sardar@app.com\",
+    \"password\": \"123123\",
+    \"group_id\": \"1\",
+    \"status\": \"notAvailable\",
+    \"from\": \"8AM\",
+    \"to\": \"4PM\"
 }"
 </code></pre></div>
 
@@ -3170,12 +2366,15 @@ const headers = {
 };
 
 let body = {
-    "servicename": "ab",
-    "title": "velit",
-    "username": "accusantium",
-    "email": "tempore",
-    "password": "modi",
-    "group_id": "sint"
+    "servicename": "Laundry",
+    "title": "Golden Laundry Co.",
+    "username": "Sardar Karkuki",
+    "email": "sardar@app.com",
+    "password": "123123",
+    "group_id": "1",
+    "status": "notAvailable",
+    "from": "8AM",
+    "to": "4PM"
 };
 
 fetch(url, {
@@ -3187,7 +2386,27 @@ fetch(url, {
 </span>
 
 <span id="example-responses-POSTapi-service-store">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;&quot;,
+        &quot;servicename&quot;: null,
+        &quot;title&quot;: null,
+        &quot;username&quot;: null,
+        &quot;email&quot;: null,
+        &quot;password&quot;: null,
+        &quot;status&quot;: null,
+        &quot;from&quot;: null,
+        &quot;to&quot;: null,
+        &quot;group_id&quot;: null
+    }
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-POSTapi-service-store" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-POSTapi-service-store"></span>:
@@ -3235,10 +2454,10 @@ fetch(url, {
                 <input type="text"
                name="servicename"
                data-endpoint="POSTapi-service-store"
-               value="ab"
+               value="Laundry"
                data-component="body" hidden>
     <br>
-
+<p>The name of service.</p>
         </p>
                 <p>
             <b><code>title</code></b>&nbsp;&nbsp;
@@ -3247,10 +2466,10 @@ fetch(url, {
                 <input type="text"
                name="title"
                data-endpoint="POSTapi-service-store"
-               value="velit"
+               value="Golden Laundry Co."
                data-component="body" hidden>
     <br>
-
+<p>The title of service.</p>
         </p>
                 <p>
             <b><code>username</code></b>&nbsp;&nbsp;
@@ -3259,10 +2478,10 @@ fetch(url, {
                 <input type="text"
                name="username"
                data-endpoint="POSTapi-service-store"
-               value="accusantium"
+               value="Sardar Karkuki"
                data-component="body" hidden>
     <br>
-
+<p>The username of service.</p>
         </p>
                 <p>
             <b><code>email</code></b>&nbsp;&nbsp;
@@ -3271,10 +2490,10 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-service-store"
-               value="tempore"
+               value="sardar@app.com"
                data-component="body" hidden>
     <br>
-
+<p>The email of service.</p>
         </p>
                 <p>
             <b><code>password</code></b>&nbsp;&nbsp;
@@ -3283,10 +2502,10 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-service-store"
-               value="modi"
+               value="123123"
                data-component="body" hidden>
     <br>
-
+<p>The password of service.</p>
         </p>
                 <p>
             <b><code>group_id</code></b>&nbsp;&nbsp;
@@ -3295,19 +2514,55 @@ fetch(url, {
                 <input type="text"
                name="group_id"
                data-endpoint="POSTapi-service-store"
-               value="sint"
+               value="1"
                data-component="body" hidden>
     <br>
-
+<p>The group of service ex: Lalav.</p>
+        </p>
+                <p>
+            <b><code>status</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="status"
+               data-endpoint="POSTapi-service-store"
+               value="notAvailable"
+               data-component="body" hidden>
+    <br>
+<p>The status of service.</p>
+        </p>
+                <p>
+            <b><code>from</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="from"
+               data-endpoint="POSTapi-service-store"
+               value="8AM"
+               data-component="body" hidden>
+    <br>
+<p>The from of service which its start time of available.</p>
+        </p>
+                <p>
+            <b><code>to</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="to"
+               data-endpoint="POSTapi-service-store"
+               value="4PM"
+               data-component="body" hidden>
+    <br>
+<p>The to of service which its end time of available.</p>
         </p>
         </form>
 
-                    <h2 id="services-api-GETapi-service-edit--id-">GET api/service/edit/{id}</h2>
+                    <h2 id="services-api-GETapi-service-edit--id-">edit service request</h2>
 
 <p>
 </p>
 
-
+<p>you can get service by ID</p>
 
 <span id="example-requests-GETapi-service-edit--id-">
 <blockquote>Example request:</blockquote>
@@ -3315,14 +2570,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/service/edit/ut" \
+    --get "http://localhost/api/service/edit/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/service/edit/ut"
+    "http://localhost/api/service/edit/1"
 );
 
 const headers = {
@@ -3339,489 +2594,23 @@ fetch(url, {
 
 <span id="example-responses-GETapi-service-edit--id-">
             <blockquote>
-            <p>Example response (500):</p>
+            <p>Example response (200):</p>
         </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 47
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
+                <pre>
 
 <code class="language-json">{
-    &quot;message&quot;: &quot;Attempt to read property \&quot;id\&quot; on null&quot;,
-    &quot;exception&quot;: &quot;ErrorException&quot;,
-    &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\DelegatesToResource.php&quot;,
-    &quot;line&quot;: 139,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php&quot;,
-            &quot;line&quot;: 259,
-            &quot;function&quot;: &quot;handleError&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\HandleExceptions&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\DelegatesToResource.php&quot;,
-            &quot;line&quot;: 139,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\HandleExceptions&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\app\\Http\\Resources\\ServiceResource.php&quot;,
-            &quot;line&quot;: 18,
-            &quot;function&quot;: &quot;__get&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\JsonResource.php&quot;,
-            &quot;line&quot;: 95,
-            &quot;function&quot;: &quot;toArray&quot;,
-            &quot;class&quot;: &quot;App\\Http\\Resources\\ServiceResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\ResourceResponse.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;resolve&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\JsonResource.php&quot;,
-            &quot;line&quot;: 231,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\ResourceResponse&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 815,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 802,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 725,
-            &quot;function&quot;: &quot;prepareResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 141,
-            &quot;function&quot;: &quot;Illuminate\\Routing\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php&quot;,
-            &quot;line&quot;: 50,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 126,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 102,
-            &quot;function&quot;: &quot;handleRequest&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 54,
-            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 726,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 703,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 667,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 656,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 141,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
-            &quot;line&quot;: 31,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php&quot;,
-            &quot;line&quot;: 62,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\HandleCors&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 142,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 89,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 45,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 35,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 209,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 166,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 95,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 122,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 69,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 47,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 53,
-            &quot;function&quot;: &quot;get&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 41,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 651,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 144,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 308,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 126,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 1002,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 171,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 102,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;&quot;,
+        &quot;servicename&quot;: null,
+        &quot;title&quot;: null,
+        &quot;username&quot;: null,
+        &quot;email&quot;: null,
+        &quot;password&quot;: null,
+        &quot;status&quot;: null,
+        &quot;from&quot;: null,
+        &quot;to&quot;: null,
+        &quot;group_id&quot;: null
+    }
 }</code>
  </pre>
     </span>
@@ -3867,24 +2656,24 @@ access-control-allow-origin: *
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="GETapi-service-edit--id-"
-               value="ut"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the edit.</p>
+<p>The ID of the service.</p>
             </p>
                     </form>
 
-                    <h2 id="services-api-PUTapi-service-update--id-">PUT api/service/update/{id}</h2>
+                    <h2 id="services-api-PUTapi-service-update--id-">Update Service Request</h2>
 
 <p>
 </p>
 
-
+<p>you can update any service by ID</p>
 
 <span id="example-requests-PUTapi-service-update--id-">
 <blockquote>Example request:</blockquote>
@@ -3892,23 +2681,26 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost/api/service/update/tempora" \
+    "http://localhost/api/service/update/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"servicename\": \"sapiente\",
-    \"title\": \"accusamus\",
-    \"username\": \"corrupti\",
-    \"email\": \"ullam\",
-    \"password\": \"neque\",
-    \"group_id\": \"quia\"
+    \"servicename\": \"Laundry\",
+    \"title\": \"Golden Laundry Co.\",
+    \"username\": \"Sardar Karkuki\",
+    \"email\": \"sardar@app.com\",
+    \"password\": \"123123\",
+    \"group_id\": \"1\",
+    \"statux\": \"notAvailable\",
+    \"from\": \"8AM\",
+    \"to\": \"4PM\"
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/service/update/tempora"
+    "http://localhost/api/service/update/1"
 );
 
 const headers = {
@@ -3917,12 +2709,15 @@ const headers = {
 };
 
 let body = {
-    "servicename": "sapiente",
-    "title": "accusamus",
-    "username": "corrupti",
-    "email": "ullam",
-    "password": "neque",
-    "group_id": "quia"
+    "servicename": "Laundry",
+    "title": "Golden Laundry Co.",
+    "username": "Sardar Karkuki",
+    "email": "sardar@app.com",
+    "password": "123123",
+    "group_id": "1",
+    "statux": "notAvailable",
+    "from": "8AM",
+    "to": "4PM"
 };
 
 fetch(url, {
@@ -3934,7 +2729,17 @@ fetch(url, {
 </span>
 
 <span id="example-responses-PUTapi-service-update--id-">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;message&quot;: &quot;Service Updated Succeesfully&quot;
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-PUTapi-service-update--id-" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-PUTapi-service-update--id-"></span>:
@@ -3977,15 +2782,15 @@ fetch(url, {
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="PUTapi-service-update--id-"
-               value="tempora"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the update.</p>
+<p>The ID of the service.</p>
             </p>
                             <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
         <p>
@@ -3995,10 +2800,10 @@ fetch(url, {
                 <input type="text"
                name="servicename"
                data-endpoint="PUTapi-service-update--id-"
-               value="sapiente"
+               value="Laundry"
                data-component="body" hidden>
     <br>
-
+<p>The name of service.</p>
         </p>
                 <p>
             <b><code>title</code></b>&nbsp;&nbsp;
@@ -4007,10 +2812,10 @@ fetch(url, {
                 <input type="text"
                name="title"
                data-endpoint="PUTapi-service-update--id-"
-               value="accusamus"
+               value="Golden Laundry Co."
                data-component="body" hidden>
     <br>
-
+<p>The title of service.</p>
         </p>
                 <p>
             <b><code>username</code></b>&nbsp;&nbsp;
@@ -4019,10 +2824,10 @@ fetch(url, {
                 <input type="text"
                name="username"
                data-endpoint="PUTapi-service-update--id-"
-               value="corrupti"
+               value="Sardar Karkuki"
                data-component="body" hidden>
     <br>
-
+<p>The username of service.</p>
         </p>
                 <p>
             <b><code>email</code></b>&nbsp;&nbsp;
@@ -4031,10 +2836,10 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-service-update--id-"
-               value="ullam"
+               value="sardar@app.com"
                data-component="body" hidden>
     <br>
-
+<p>The email of service.</p>
         </p>
                 <p>
             <b><code>password</code></b>&nbsp;&nbsp;
@@ -4043,10 +2848,10 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-service-update--id-"
-               value="neque"
+               value="123123"
                data-component="body" hidden>
     <br>
-
+<p>The password of service.</p>
         </p>
                 <p>
             <b><code>group_id</code></b>&nbsp;&nbsp;
@@ -4055,19 +2860,55 @@ fetch(url, {
                 <input type="text"
                name="group_id"
                data-endpoint="PUTapi-service-update--id-"
-               value="quia"
+               value="1"
                data-component="body" hidden>
     <br>
-
+<p>The group of service ex: Lalav.</p>
+        </p>
+                <p>
+            <b><code>statux</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="statux"
+               data-endpoint="PUTapi-service-update--id-"
+               value="notAvailable"
+               data-component="body" hidden>
+    <br>
+<p>The status of service.</p>
+        </p>
+                <p>
+            <b><code>from</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="from"
+               data-endpoint="PUTapi-service-update--id-"
+               value="8AM"
+               data-component="body" hidden>
+    <br>
+<p>The from of service which its start time of available.</p>
+        </p>
+                <p>
+            <b><code>to</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="to"
+               data-endpoint="PUTapi-service-update--id-"
+               value="4PM"
+               data-component="body" hidden>
+    <br>
+<p>The to of service which its end time of available.</p>
         </p>
         </form>
 
-                    <h2 id="services-api-DELETEapi-service-delete--id-">DELETE api/service/delete/{id}</h2>
+                    <h2 id="services-api-DELETEapi-service-delete--id-">Delete Service Request</h2>
 
 <p>
 </p>
 
-
+<p>you can Delete any service by ID</p>
 
 <span id="example-requests-DELETEapi-service-delete--id-">
 <blockquote>Example request:</blockquote>
@@ -4075,14 +2916,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost/api/service/delete/blanditiis" \
+    "http://localhost/api/service/delete/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/service/delete/blanditiis"
+    "http://localhost/api/service/delete/1"
 );
 
 const headers = {
@@ -4098,7 +2939,17 @@ fetch(url, {
 </span>
 
 <span id="example-responses-DELETEapi-service-delete--id-">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;message&quot;: &quot;Service Deleted Succeesfully&quot;
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-DELETEapi-service-delete--id-" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-DELETEapi-service-delete--id-"></span>:
@@ -4141,15 +2992,15 @@ fetch(url, {
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="DELETEapi-service-delete--id-"
-               value="blanditiis"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the delete.</p>
+<p>The ID of the service.</p>
             </p>
                     </form>
 
@@ -4157,7 +3008,7 @@ fetch(url, {
 
     <p>Managing all roles API Resource</p>
 
-                                <h2 id="users-api-GETapi-users-showall">GET api/users/showall</h2>
+                                <h2 id="users-api-GETapi-users-showall">fetch all users</h2>
 
 <p>
 </p>
@@ -4203,7 +3054,7 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 58
+x-ratelimit-remaining: 59
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -4254,12 +3105,12 @@ access-control-allow-origin: *
         </p>
                     </form>
 
-                    <h2 id="users-api-GETapi-users-create">GET api/users/create</h2>
+                    <h2 id="users-api-GETapi-users-create">Create User Request</h2>
 
 <p>
 </p>
 
-
+<p>you can create any users with attaching role and group</p>
 
 <span id="example-requests-GETapi-users-create">
 <blockquote>Example request:</blockquote>
@@ -4293,17 +3144,7 @@ fetch(url, {
             <blockquote>
             <p>Example response (200):</p>
         </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 57
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
+                <pre>
 
 <code class="language-json">{
     &quot;roles&quot;: [
@@ -4316,7 +3157,16 @@ access-control-allow-origin: *
             &quot;rolename&quot;: &quot;Group&quot;
         }
     ],
-    &quot;group&quot;: []
+    &quot;group&quot;: [
+        {
+            &quot;id&quot;: &quot;1&quot;,
+            &quot;groupname&quot;: &quot;Lalav&quot;
+        },
+        {
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;groupname&quot;: &quot;Pavilon&quot;
+        }
+    ]
 }</code>
  </pre>
     </span>
@@ -4361,7 +3211,7 @@ access-control-allow-origin: *
         </p>
                     </form>
 
-                    <h2 id="users-api-POSTapi-users-store">POST api/users/store</h2>
+                    <h2 id="users-api-POSTapi-users-store">store user request</h2>
 
 <p>
 </p>
@@ -4378,11 +3228,11 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"earum\",
-    \"email\": \"corrupti\",
-    \"password\": \"incidunt\",
-    \"role_id\": \"voluptatum\",
-    \"group_id\": \"reprehenderit\"
+    \"name\": \"ahmed\",
+    \"email\": \"ahmed@app.com\",
+    \"password\": \"123123\",
+    \"role_id\": \"1\",
+    \"group_id\": \"1\"
 }"
 </code></pre></div>
 
@@ -4398,11 +3248,11 @@ const headers = {
 };
 
 let body = {
-    "name": "earum",
-    "email": "corrupti",
-    "password": "incidunt",
-    "role_id": "voluptatum",
-    "group_id": "reprehenderit"
+    "name": "ahmed",
+    "email": "ahmed@app.com",
+    "password": "123123",
+    "role_id": "1",
+    "group_id": "1"
 };
 
 fetch(url, {
@@ -4414,7 +3264,22 @@ fetch(url, {
 </span>
 
 <span id="example-responses-POSTapi-users-store">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;&quot;,
+        &quot;name&quot;: &quot;Monique Upton&quot;,
+        &quot;email&quot;: &quot;dominique.nader@example.net&quot;,
+        &quot;role&quot;: null,
+        &quot;group&quot;: null
+    }
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-POSTapi-users-store" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-POSTapi-users-store"></span>:
@@ -4462,10 +3327,10 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-users-store"
-               value="earum"
+               value="ahmed"
                data-component="body" hidden>
     <br>
-
+<p>The name of users.</p>
         </p>
                 <p>
             <b><code>email</code></b>&nbsp;&nbsp;
@@ -4474,10 +3339,10 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-users-store"
-               value="corrupti"
+               value="ahmed@app.com"
                data-component="body" hidden>
     <br>
-
+<p>The email of users.</p>
         </p>
                 <p>
             <b><code>password</code></b>&nbsp;&nbsp;
@@ -4486,10 +3351,10 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-users-store"
-               value="incidunt"
+               value="123123"
                data-component="body" hidden>
     <br>
-
+<p>The password of users.</p>
         </p>
                 <p>
             <b><code>role_id</code></b>&nbsp;&nbsp;
@@ -4498,10 +3363,10 @@ fetch(url, {
                 <input type="text"
                name="role_id"
                data-endpoint="POSTapi-users-store"
-               value="voluptatum"
+               value="1"
                data-component="body" hidden>
     <br>
-
+<p>The role of users.</p>
         </p>
                 <p>
             <b><code>group_id</code></b>&nbsp;&nbsp;
@@ -4510,19 +3375,19 @@ fetch(url, {
                 <input type="text"
                name="group_id"
                data-endpoint="POSTapi-users-store"
-               value="reprehenderit"
+               value="1"
                data-component="body" hidden>
     <br>
-
+<p>The group name of users.</p>
         </p>
         </form>
 
-                    <h2 id="users-api-GETapi-users-edit--id-">GET api/users/edit/{id}</h2>
+                    <h2 id="users-api-GETapi-users-edit--id-">edit user request</h2>
 
 <p>
 </p>
 
-
+<p>you can get user by ID</p>
 
 <span id="example-requests-GETapi-users-edit--id-">
 <blockquote>Example request:</blockquote>
@@ -4530,14 +3395,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/users/edit/dolores" \
+    --get "http://localhost/api/users/edit/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/users/edit/dolores"
+    "http://localhost/api/users/edit/1"
 );
 
 const headers = {
@@ -4554,489 +3419,18 @@ fetch(url, {
 
 <span id="example-responses-GETapi-users-edit--id-">
             <blockquote>
-            <p>Example response (500):</p>
+            <p>Example response (200):</p>
         </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 56
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
+                <pre>
 
 <code class="language-json">{
-    &quot;message&quot;: &quot;Attempt to read property \&quot;id\&quot; on null&quot;,
-    &quot;exception&quot;: &quot;ErrorException&quot;,
-    &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\DelegatesToResource.php&quot;,
-    &quot;line&quot;: 139,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php&quot;,
-            &quot;line&quot;: 259,
-            &quot;function&quot;: &quot;handleError&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\HandleExceptions&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\DelegatesToResource.php&quot;,
-            &quot;line&quot;: 139,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Bootstrap\\HandleExceptions&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\app\\Http\\Resources\\UserResource.php&quot;,
-            &quot;line&quot;: 18,
-            &quot;function&quot;: &quot;__get&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\JsonResource.php&quot;,
-            &quot;line&quot;: 95,
-            &quot;function&quot;: &quot;toArray&quot;,
-            &quot;class&quot;: &quot;App\\Http\\Resources\\UserResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\ResourceResponse.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;resolve&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Resources\\Json\\JsonResource.php&quot;,
-            &quot;line&quot;: 231,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\ResourceResponse&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 815,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Resources\\Json\\JsonResource&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 802,
-            &quot;function&quot;: &quot;toResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 725,
-            &quot;function&quot;: &quot;prepareResponse&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 141,
-            &quot;function&quot;: &quot;Illuminate\\Routing\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php&quot;,
-            &quot;line&quot;: 50,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\SubstituteBindings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 126,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 102,
-            &quot;function&quot;: &quot;handleRequest&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 54,
-            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 726,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 703,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 667,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 656,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 141,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
-            &quot;line&quot;: 31,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php&quot;,
-            &quot;line&quot;: 62,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\HandleCors&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 142,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 89,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 45,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 35,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 209,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 166,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 95,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 122,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 69,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 47,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 53,
-            &quot;function&quot;: &quot;get&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 41,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 651,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 144,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 308,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 126,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 1002,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 171,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 102,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;E:\\AllProject\\AptProject\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;&quot;,
+        &quot;name&quot;: &quot;Vena DuBuque MD&quot;,
+        &quot;email&quot;: &quot;adonnelly@example.com&quot;,
+        &quot;role&quot;: null,
+        &quot;group&quot;: null
+    }
 }</code>
  </pre>
     </span>
@@ -5082,24 +3476,24 @@ access-control-allow-origin: *
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="GETapi-users-edit--id-"
-               value="dolores"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the edit.</p>
+<p>The ID of the user.</p>
             </p>
                     </form>
 
-                    <h2 id="users-api-PUTapi-users-update--id-">PUT api/users/update/{id}</h2>
+                    <h2 id="users-api-PUTapi-users-update--id-">Update User Request</h2>
 
 <p>
 </p>
 
-
+<p>you can update any users by ID</p>
 
 <span id="example-requests-PUTapi-users-update--id-">
 <blockquote>Example request:</blockquote>
@@ -5107,22 +3501,22 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost/api/users/update/beatae" \
+    "http://localhost/api/users/update/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"est\",
-    \"email\": \"veritatis\",
-    \"password\": \"ea\",
-    \"role_id\": \"excepturi\",
-    \"group_id\": \"eius\"
+    \"name\": \"ahmed\",
+    \"email\": \"ahmed@app.com\",
+    \"password\": \"123123\",
+    \"role_id\": \"1\",
+    \"group_id\": \"1\"
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/users/update/beatae"
+    "http://localhost/api/users/update/1"
 );
 
 const headers = {
@@ -5131,11 +3525,11 @@ const headers = {
 };
 
 let body = {
-    "name": "est",
-    "email": "veritatis",
-    "password": "ea",
-    "role_id": "excepturi",
-    "group_id": "eius"
+    "name": "ahmed",
+    "email": "ahmed@app.com",
+    "password": "123123",
+    "role_id": "1",
+    "group_id": "1"
 };
 
 fetch(url, {
@@ -5147,7 +3541,17 @@ fetch(url, {
 </span>
 
 <span id="example-responses-PUTapi-users-update--id-">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;message&quot;: &quot;User Updated Succeesfully&quot;
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-PUTapi-users-update--id-" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-PUTapi-users-update--id-"></span>:
@@ -5190,15 +3594,15 @@ fetch(url, {
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="PUTapi-users-update--id-"
-               value="beatae"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the update.</p>
+<p>The ID of the user.</p>
             </p>
                             <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
         <p>
@@ -5208,10 +3612,10 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-users-update--id-"
-               value="est"
+               value="ahmed"
                data-component="body" hidden>
     <br>
-
+<p>The updated name of users.</p>
         </p>
                 <p>
             <b><code>email</code></b>&nbsp;&nbsp;
@@ -5220,10 +3624,10 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-users-update--id-"
-               value="veritatis"
+               value="ahmed@app.com"
                data-component="body" hidden>
     <br>
-
+<p>The updated email of users.</p>
         </p>
                 <p>
             <b><code>password</code></b>&nbsp;&nbsp;
@@ -5232,10 +3636,10 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-users-update--id-"
-               value="ea"
+               value="123123"
                data-component="body" hidden>
     <br>
-
+<p>The updated password of users.</p>
         </p>
                 <p>
             <b><code>role_id</code></b>&nbsp;&nbsp;
@@ -5244,10 +3648,10 @@ fetch(url, {
                 <input type="text"
                name="role_id"
                data-endpoint="PUTapi-users-update--id-"
-               value="excepturi"
+               value="1"
                data-component="body" hidden>
     <br>
-
+<p>The updated role of users.</p>
         </p>
                 <p>
             <b><code>group_id</code></b>&nbsp;&nbsp;
@@ -5256,19 +3660,19 @@ fetch(url, {
                 <input type="text"
                name="group_id"
                data-endpoint="PUTapi-users-update--id-"
-               value="eius"
+               value="1"
                data-component="body" hidden>
     <br>
-
+<p>The updated group name of users.</p>
         </p>
         </form>
 
-                    <h2 id="users-api-DELETEapi-users-delete--id-">DELETE api/users/delete/{id}</h2>
+                    <h2 id="users-api-DELETEapi-users-delete--id-">Delete Users Request</h2>
 
 <p>
 </p>
 
-
+<p>you can Delete any users by ID</p>
 
 <span id="example-requests-DELETEapi-users-delete--id-">
 <blockquote>Example request:</blockquote>
@@ -5276,14 +3680,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost/api/users/delete/ipsum" \
+    "http://localhost/api/users/delete/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/users/delete/ipsum"
+    "http://localhost/api/users/delete/1"
 );
 
 const headers = {
@@ -5299,7 +3703,17 @@ fetch(url, {
 </span>
 
 <span id="example-responses-DELETEapi-users-delete--id-">
-</span>
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;message&quot;: &quot;User Deleted Succeesfully&quot;
+}</code>
+ </pre>
+    </span>
 <span id="execution-results-DELETEapi-users-delete--id-" hidden>
     <blockquote>Received response<span
                 id="execution-response-status-DELETEapi-users-delete--id-"></span>:
@@ -5342,15 +3756,15 @@ fetch(url, {
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
                 <b><code>id</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>integer</small>&nbsp;
  &nbsp;
-                <input type="text"
+                <input type="number"
                name="id"
                data-endpoint="DELETEapi-users-delete--id-"
-               value="ipsum"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the delete.</p>
+<p>The ID of the user.</p>
             </p>
                     </form>
 

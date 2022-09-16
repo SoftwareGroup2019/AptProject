@@ -50,7 +50,6 @@ class UsersController extends Controller
      * 
      * you can create any users with attaching role and group
      *
-     * @apiResource App\Http\Resources\RoleResource
      * 
      * @response 200 {
      *   "roles": [
