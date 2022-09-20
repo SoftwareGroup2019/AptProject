@@ -174,7 +174,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":{"id":"","name":"Monique Upton","email":"dominique.nader@example.net","role":null,"group":null}}'
+        content: '{"data":{"id":"","name":"Cortez Kuhic","email":"sjones@example.org","role":null,"group":null}}'
         headers: []
         description: '0'
         custom: []
@@ -220,7 +220,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":{"id":"","name":"Vena DuBuque MD","email":"adonnelly@example.com","role":null,"group":null}}'
+        content: '{"data":{"id":"","name":"Ms. Carmela Cormier III","email":"jleffler@example.net","role":null,"group":null}}'
         headers: []
         description: '0'
         custom: []

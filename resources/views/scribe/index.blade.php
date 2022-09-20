@@ -66,6 +66,22 @@
                     <a href="#authenticating-requests">Authenticating requests</a>
                 </li>
                             </ul>
+                    <ul id="tocify-header-advertisments-api" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="advertisments-api">
+                    <a href="#advertisments-api">Advertisments API</a>
+                </li>
+                                    <ul id="tocify-subheader-advertisments-api" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="advertisments-api-GETapi-ads-showall">
+                                <a href="#advertisments-api-GETapi-ads-showall">fetch all advertisments</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="advertisments-api-POSTapi-ads-store">
+                                <a href="#advertisments-api-POSTapi-ads-store">store advertisment request</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="advertisments-api-DELETEapi-ads-delete--id-">
+                                <a href="#advertisments-api-DELETEapi-ads-delete--id-">Delete Advertisment Request</a>
+                            </li>
+                                                                        </ul>
+                            </ul>
                     <ul id="tocify-header-apartments-api" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="apartments-api">
                     <a href="#apartments-api">Apartments API</a>
@@ -193,7 +209,7 @@
                             <li><a href="http://github.com/knuckleswtf/scribe">Documentation powered by Scribe ✍</a></li>
                     </ul>
         <ul class="toc-footer" id="last-updated">
-        <li>Last updated: September 16 2022</li>
+        <li>Last updated: September 20 2022</li>
     </ul>
 </div>
 
@@ -212,7 +228,381 @@ You can switch the language used with the tabs at the top right (or from the nav
         <h1 id="authenticating-requests">Authenticating requests</h1>
 <p>This API is not authenticated.</p>
 
-        <h1 id="apartments-api">Apartments API</h1>
+        <h1 id="advertisments-api">Advertisments API</h1>
+
+    <p>Managing all advertisments API Resource</p>
+
+                                <h2 id="advertisments-api-GETapi-ads-showall">fetch all advertisments</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-ads-showall">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/ads/showall" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/ads/showall"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-ads-showall">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 54
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;data&quot;: []
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-ads-showall" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-ads-showall"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-ads-showall"></code></pre>
+</span>
+<span id="execution-error-GETapi-ads-showall" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-ads-showall"></code></pre>
+</span>
+<form id="form-GETapi-ads-showall" data-method="GET"
+      data-path="api/ads/showall"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-ads-showall', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-ads-showall"
+                    onclick="tryItOut('GETapi-ads-showall');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-ads-showall"
+                    onclick="cancelTryOut('GETapi-ads-showall');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-ads-showall" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/ads/showall</code></b>
+        </p>
+                    </form>
+
+                    <h2 id="advertisments-api-POSTapi-ads-store">store advertisment request</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-ads-store">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request POST \
+    "http://localhost/api/ads/store" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{
+    \"image\": \"image\\/JNcvyK6xv3TtqmtrT1OTtxmokuPmRiged9yrflEA.jpg\",
+    \"video\": \"https:\\/\\/www.youtube.com\",
+    \"period\": \"3Days\",
+    \"provider\": \"Talabat\",
+    \"group_id\": \"1\"
+}"
+</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/ads/store"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "image": "image\/JNcvyK6xv3TtqmtrT1OTtxmokuPmRiged9yrflEA.jpg",
+    "video": "https:\/\/www.youtube.com",
+    "period": "3Days",
+    "provider": "Talabat",
+    "group_id": "1"
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-ads-store">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;data&quot;: {
+        &quot;id&quot;: &quot;&quot;,
+        &quot;image&quot;: null,
+        &quot;video&quot;: null,
+        &quot;period&quot;: null,
+        &quot;provider&quot;: null,
+        &quot;group&quot;: null
+    }
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-POSTapi-ads-store" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-ads-store"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-ads-store"></code></pre>
+</span>
+<span id="execution-error-POSTapi-ads-store" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-ads-store"></code></pre>
+</span>
+<form id="form-POSTapi-ads-store" data-method="POST"
+      data-path="api/ads/store"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-ads-store', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-ads-store"
+                    onclick="tryItOut('POSTapi-ads-store');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-ads-store"
+                    onclick="cancelTryOut('POSTapi-ads-store');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-ads-store" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/ads/store</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>image</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="image"
+               data-endpoint="POSTapi-ads-store"
+               value="image/JNcvyK6xv3TtqmtrT1OTtxmokuPmRiged9yrflEA.jpg"
+               data-component="body" hidden>
+    <br>
+<p>The image of ads.</p>
+        </p>
+                <p>
+            <b><code>video</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="video"
+               data-endpoint="POSTapi-ads-store"
+               value="https://www.youtube.com"
+               data-component="body" hidden>
+    <br>
+<p>The video of ads.</p>
+        </p>
+                <p>
+            <b><code>period</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="period"
+               data-endpoint="POSTapi-ads-store"
+               value="3Days"
+               data-component="body" hidden>
+    <br>
+<p>The days number of avalabilty of ads.</p>
+        </p>
+                <p>
+            <b><code>provider</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="provider"
+               data-endpoint="POSTapi-ads-store"
+               value="Talabat"
+               data-component="body" hidden>
+    <br>
+<p>The name of providing place of ads.</p>
+        </p>
+                <p>
+            <b><code>group_id</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="group_id"
+               data-endpoint="POSTapi-ads-store"
+               value="1"
+               data-component="body" hidden>
+    <br>
+<p>The group of apartment ex: Lalav.</p>
+        </p>
+        </form>
+
+                    <h2 id="advertisments-api-DELETEapi-ads-delete--id-">Delete Advertisment Request</h2>
+
+<p>
+</p>
+
+<p>you can Delete any advertismets by ID</p>
+
+<span id="example-requests-DELETEapi-ads-delete--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request DELETE \
+    "http://localhost/api/ads/delete/1" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/ads/delete/1"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "DELETE",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-ads-delete--id-">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;message&quot;: &quot;Advertisment Deleted Succeesfully&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-DELETEapi-ads-delete--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-ads-delete--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-ads-delete--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-ads-delete--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-ads-delete--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-ads-delete--id-" data-method="DELETE"
+      data-path="api/ads/delete/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-ads-delete--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-ads-delete--id-"
+                    onclick="tryItOut('DELETEapi-ads-delete--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-ads-delete--id-"
+                    onclick="cancelTryOut('DELETEapi-ads-delete--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-ads-delete--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/ads/delete/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;
+<small>integer</small>&nbsp;
+ &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-ads-delete--id-"
+               value="1"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the ads.</p>
+            </p>
+                    </form>
+
+                <h1 id="apartments-api">Apartments API</h1>
 
     <p>Managing all apartments API Resource</p>
 
@@ -355,10 +745,7 @@ fetch(url, {
                 <pre>
 
 <code class="language-json">{
-    &quot;data&quot;: {
-        &quot;id&quot;: &quot;1&quot;,
-        &quot;groupname&quot;: &quot;Lalav&quot;
-    }
+    &quot;data&quot;: []
 }</code>
  </pre>
     </span>
@@ -1093,14 +1480,8 @@ access-control-allow-origin: *
 
 <code class="language-json">{
     &quot;data&quot;: [
-        {
-            &quot;id&quot;: &quot;1&quot;,
-            &quot;groupname&quot;: &quot;Lalav&quot;
-        },
-        {
-            &quot;id&quot;: &quot;2&quot;,
-            &quot;groupname&quot;: &quot;Pavilon&quot;
-        }
+        [],
+        []
     ]
 }</code>
  </pre>
@@ -1197,10 +1578,7 @@ fetch(url, {
                 <pre>
 
 <code class="language-json">{
-    &quot;data&quot;: {
-        &quot;id&quot;: &quot;1&quot;,
-        &quot;groupname&quot;: &quot;Lalav&quot;
-    }
+    &quot;data&quot;: []
 }</code>
  </pre>
     </span>
@@ -1300,10 +1678,7 @@ fetch(url, {
                 <pre>
 
 <code class="language-json">{
-    &quot;data&quot;: {
-        &quot;id&quot;: &quot;1&quot;,
-        &quot;groupname&quot;: &quot;Lalav&quot;
-    }
+    &quot;data&quot;: []
 }</code>
  </pre>
     </span>
@@ -2277,10 +2652,7 @@ fetch(url, {
                 <pre>
 
 <code class="language-json">{
-    &quot;data&quot;: {
-        &quot;id&quot;: &quot;1&quot;,
-        &quot;groupname&quot;: &quot;Lalav&quot;
-    }
+    &quot;data&quot;: []
 }</code>
  </pre>
     </span>
@@ -3272,8 +3644,8 @@ fetch(url, {
 <code class="language-json">{
     &quot;data&quot;: {
         &quot;id&quot;: &quot;&quot;,
-        &quot;name&quot;: &quot;Monique Upton&quot;,
-        &quot;email&quot;: &quot;dominique.nader@example.net&quot;,
+        &quot;name&quot;: &quot;Cortez Kuhic&quot;,
+        &quot;email&quot;: &quot;sjones@example.org&quot;,
         &quot;role&quot;: null,
         &quot;group&quot;: null
     }
@@ -3426,8 +3798,8 @@ fetch(url, {
 <code class="language-json">{
     &quot;data&quot;: {
         &quot;id&quot;: &quot;&quot;,
-        &quot;name&quot;: &quot;Vena DuBuque MD&quot;,
-        &quot;email&quot;: &quot;adonnelly@example.com&quot;,
+        &quot;name&quot;: &quot;Ms. Carmela Cormier III&quot;,
+        &quot;email&quot;: &quot;jleffler@example.net&quot;,
         &quot;role&quot;: null,
         &quot;group&quot;: null
     }

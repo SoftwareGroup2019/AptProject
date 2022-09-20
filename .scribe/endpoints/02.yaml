@@ -31,7 +31,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":[{"id":"1","groupname":"Lalav"},{"id":"2","groupname":"Pavilon"}]}'
+        content: '{"data":[[],[]]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -82,7 +82,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":{"id":"1","groupname":"Lalav"}}'
+        content: '{"data":[]}'
         headers: []
         description: '0'
         custom: []
@@ -128,7 +128,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":{"id":"1","groupname":"Lalav"}}'
+        content: '{"data":[]}'
         headers: []
         description: '0'
         custom: []

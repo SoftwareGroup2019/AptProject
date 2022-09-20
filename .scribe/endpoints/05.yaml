@@ -1,0 +1,176 @@
+name: 'Advertisments API'
+description: |-
+
+  Managing all advertisments API Resource
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/ads/showall
+    metadata:
+      groupName: 'Advertisments API'
+      groupDescription: |-
+
+        Managing all advertisments API Resource
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'fetch all advertisments'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":[]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '54'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/ads/store
+    metadata:
+      groupName: 'Advertisments API'
+      groupDescription: |-
+
+        Managing all advertisments API Resource
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'store advertisment request'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      image:
+        name: image
+        description: 'The image of ads.'
+        required: true
+        example: image/JNcvyK6xv3TtqmtrT1OTtxmokuPmRiged9yrflEA.jpg
+        type: string
+        custom: []
+      video:
+        name: video
+        description: 'The video of ads.'
+        required: true
+        example: 'https://www.youtube.com'
+        type: string
+        custom: []
+      period:
+        name: period
+        description: 'The days number of avalabilty of ads.'
+        required: true
+        example: 3Days
+        type: string
+        custom: []
+      provider:
+        name: provider
+        description: 'The name of providing place of ads.'
+        required: true
+        example: Talabat
+        type: string
+        custom: []
+      group_id:
+        name: group_id
+        description: 'The group of apartment ex: Lalav.'
+        required: true
+        example: '1'
+        type: string
+        custom: []
+    cleanBodyParameters:
+      image: image/JNcvyK6xv3TtqmtrT1OTtxmokuPmRiged9yrflEA.jpg
+      video: 'https://www.youtube.com'
+      period: 3Days
+      provider: Talabat
+      group_id: '1'
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":"","image":null,"video":null,"period":null,"provider":null,"group":null}}'
+        headers: []
+        description: '0'
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/ads/delete/{id}'
+    metadata:
+      groupName: 'Advertisments API'
+      groupDescription: |-
+
+        Managing all advertisments API Resource
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Delete Advertisment Request'
+      description: 'you can Delete any advertismets by ID'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the ads.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: |-
+          {
+            "status": true,
+            "message": "Advertisment Deleted Succeesfully"
+          }
+        headers: []
+        description: '200'
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
