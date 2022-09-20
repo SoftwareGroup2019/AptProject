@@ -4,7 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class GroupResource extends JsonResource
+class AdvertismentResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -15,8 +15,12 @@ class GroupResource extends JsonResource
     public function toArray($request)
     {
         return [
-            // 'id' => (string)$this->id,
-            // 'groupname' => $this->groupname
+            // 'id' => $this->id,
+            'image' => $this->image,
+            'video' => $this->video,
+            'period' => $this->period,
+            'provider' => $this->provider,
+            'group' => new GroupResource($this->group_id)
         ];
     }
 }
